@@ -27,7 +27,7 @@ export default function Card() {
         <div className="card" >
          <div>
         <div className="title">
-        <img src={info?.picture?.thumbnail}  className="image" />
+        <img src={info?.picture?.large}  className="image" />
         <p className="title-p">{info?.name?.title} {info?.name?.first} {info?.name?.last}</p>
         </div>
         <div className="body">
